@@ -11,7 +11,7 @@ exports.getBrowser = (() => {
   return async (context, options = {
     headless: true,
     executablePath: config.executablePath,
-    args: config.launchOptionForLambda,
+    args: config.launchOptionForFC,
     env: {
       LD_LIBRARY_PATH: `${process.env['LD_LIBRARY_PATH']}:${libPath}`,
     },

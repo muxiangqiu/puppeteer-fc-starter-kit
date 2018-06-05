@@ -1,6 +1,6 @@
 const path = require('path');
 
-const launchOptionForLambda = [
+const launchOptionForFC = [
     // error when launch(); No usable sandbox! Update your kernel
     '--no-sandbox',
     // error when launch(); Failed to load libosmesa.so
@@ -26,7 +26,7 @@ const executablePath = path.join(
 const DEBUG = process.env.DEBUG;
 
 module.exports = {
-    launchOptionForLambda,
+    launchOptionForFC,
     localChromePath,
     remoteChromeOSSBucket,
     remoteChromeOSSKey,
