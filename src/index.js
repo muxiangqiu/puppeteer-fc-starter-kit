@@ -14,7 +14,7 @@ exports.run = async (browser) => {
   // implement here
   // this is sample
   const page = await browser.newPage();
-  await page.goto('https://baidu.com');
+  await page.goto('https://fc.console.aliyun.com');
   await page.screenshot({
     path: '/tmp/screenshot.png',
     clip: {
