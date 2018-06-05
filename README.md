@@ -7,7 +7,7 @@ It can use alone and also supported [Serverless Framework](https://github.com/se
 ## Download
 
 ```
-$ git clone -o starter-kit git@gitlab.alibaba-inc.com:subo.ysb/puppeteer-lambda-starter-kit.git your_project_name
+$ git clone -o starter-kit https://github.com/muxiangqiu/puppeteer-lambda-starter-kit.git your_project_name
 ```
 
 ## Run on local

@@ -6,7 +6,8 @@ const config = require('./config');
 
 exports.getBrowser = (() => {
   let browser;
-  const libPath = '/code/lib/usr/lib/x86_64-linux-gnu/';
+  const libPath =
+    `${process.env['FC_FUNC_CODE_PATH']}/lib/usr/lib/x86_64-linux-gnu/`;
   return async (context, options = {
     headless: true,
     executablePath: config.executablePath,
