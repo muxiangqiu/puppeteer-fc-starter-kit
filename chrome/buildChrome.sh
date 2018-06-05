@@ -3,7 +3,7 @@
 
 # sudo su
 
-apt-get install flex bison libcogl-pango-dev
+apt-get install flex bison libcogl-pango-dev gperf
 
 cd ~
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
