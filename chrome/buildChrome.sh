@@ -30,6 +30,6 @@ gn gen out/Headless
 ninja -C out/Headless headless_shell
 
 cd out/Headless
-tar -zcvf /home/ec2-user/headless_shell.tar.gz headless_shell 
-
-# scp ec2-user@xxx.amazonaws.com:~/headless_shell.tar.gz .
+strip headless_shell
+mkdir /home/fc
+tar -zcvf /home/fc/headless_shell.tar.gz headless_shell
