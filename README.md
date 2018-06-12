@@ -10,15 +10,19 @@ It can use alone and also supported [Serverless Framework](https://github.com/se
 $ git clone -o starter-kit https://github.com/muxiangqiu/puppeteer-fc-starter-kit.git your_project_name
 ```
 
+## Packaging & Deploy
+
+FC's memory needs to be set to at least 512 MB, but the more memory, the better the performance of any operations. 
+
+tips: You can use fcli to deploy on FC, see [fcli doc](https://help.aliyun.com/document_detail/52995.html?spm=a2c4g.11186623.6.609.uMGJG7#mkf)
+
 ## Run on local
 
 By executing `SLOWMO_MS=250 npm run local`, you can check the operation while actually viewing the chrome (non-headless, slowmo).
 
 ### chrome in package (recommended)
 
-If you use alone, run `npm run package`, and deploy the package.zip. 
-
-If you use with Serverless, run `serverless deploy` (this runs `npm run package` when packaging).
+If you use alone, run `npm run package`, and deploy the package.zip on FC . 
 
 ### chrome NOT in package
 
