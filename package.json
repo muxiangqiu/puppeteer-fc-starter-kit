@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "puppeteer": "^1.4.0",
-    "tar": "^4.4.4"
+    "tar": "^4.4.15"
   },
   "devDependencies": {
     "ali-oss": "^5.2.0",
